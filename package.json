@@ -1,0 +1,12 @@
+{
+  "name": "html-parser-test",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thescientist13/node-html-parser-test.git"
+  },
+  "dependencies": {
+    "node-html-parser": "^7.0.1"
+  }
+}
