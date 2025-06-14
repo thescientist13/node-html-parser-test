@@ -1,4 +1,4 @@
-import * as htmlparser from 'node-html-parser';
+import { parse } from 'node-html-parser';
 
 const html = `
   <body>
@@ -6,7 +6,7 @@ const html = `
   </body>
 `;
 
-const pageRoot = htmlparser.parse(html, {
+const pageRoot = parse(html, {
   script: true,
   style: true,
   noscript: true,
